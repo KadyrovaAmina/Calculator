@@ -1,0 +1,80 @@
+body{
+    background-image: url(yagoda.jpg);
+    font-family: 'Roboto Slab', serif;
+    display: flex;
+    text-align: center;
+}
+.calc{
+    background-color: rgb(243, 171, 164);
+    color: rgb(180, 63, 50);
+    border: 2 px dashed;
+    border-radius: 20px;
+    width: 400px;
+    margin: 100px 450px;
+    padding: 20px;
+}
+
+.res{
+    padding: 20px;
+    font-size: 15px;
+    background-color: rgb(245, 143, 131);
+    color: rgb(124, 34, 24);
+    font-weight: bolder;
+    border-radius: 20px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.num1{
+    border-radius: 20px;
+    border: 2px solid salmon;
+}
+
+.num2{
+    border-radius: 20px;
+    border: 2px solid salmon;
+}
+
+.input{
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.button{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.plus{
+    border-radius: 20px;
+    background-color: white;
+    border: 2px solid salmon;
+    color: rgb(180, 63, 50);
+    font-weight: bolder;
+}
+
+.minus{
+    border-radius: 20px;
+    background-color: white;
+    border: 2px solid salmon;
+    color: rgb(180, 63, 50);
+    font-weight: bolder;
+}
+
+.umn{
+    border-radius: 20px;
+    background-color: white;
+    border: 2px solid salmon;
+    color: rgb(180, 63, 50);
+    font-weight: bolder;
+}
+
+.del{
+    border-radius: 20px;
+    background-color: white;
+    border: 2px solid salmon;
+    color: rgb(180, 63, 50);
+    font-weight: bolder;
+}
